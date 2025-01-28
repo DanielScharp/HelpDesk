@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "HelpDesk.API.Controllers.LoginController",
+    "Method": "AuthenticateAsync",
+    "RelativePath": "api/Login/in",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "HelpDesk.Domain.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelpDesk.API.Controllers.LoginController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Login/reenviar-senha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "HelpDesk.Domain.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelpDesk.API.Controllers.UsuariosController",
+    "Method": "Listar",
+    "RelativePath": "api/Usuarios/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

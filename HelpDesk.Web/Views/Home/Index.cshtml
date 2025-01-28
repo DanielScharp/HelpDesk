@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>hello</h1>
+
+@if (ClienteSessao.Logado.UsuarioId == 0)
+{
+
+    <h1>não logou</h1>
+
+}else
+{
+    <h1> logou</h1>
+
+}
